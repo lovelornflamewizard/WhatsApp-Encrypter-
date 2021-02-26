@@ -3,15 +3,12 @@ body {
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 24px;
 	font-weight: 900;
 }
 
 form {
-	background: #C8F902;
-	padding: 10px;
-
-	border: 2px solid #666;
+	padding: 0 6% 6% 6%;
 }
 
 textarea {
@@ -20,9 +17,26 @@ textarea {
 
 button {
 	cursor: pointer;
+	background: transparent;
 }
 
-button.paste {
+.main {
+	background: #C8F902;
+	border: 2px solid #666;
+}
+
+.navbar {
+	background: #32CD32;
+	margin: 0;
+	overflow: auto;
+}
+
+.navsep {
+	height: 2px;
+	margin-top: 0;
+}
+
+.paste {
 	background: #DDD;
 	float: right;
 	font-size: 12px;
@@ -30,13 +44,25 @@ button.paste {
 	border-width: 1px;
 }
 
-button.submit {
-	width: 100px;
+.submit {
+	width: 40%;
 	height: 50px;
 	font-size: 16px;
-	margin: 5px;
+	margin: 4%;
+}
+
+.settings {
+	background: transparent;
+	padding: 0;
+	margin: 2px;
+	border: none;
+	float: right;
 }
 
 .textbox {
-	width: 200px;
+	width: 75%;
+}
+
+.space {
+	height: 8px;
 }
