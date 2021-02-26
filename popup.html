@@ -13,29 +13,40 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body style="padding: 5%;">
-    <h1 style="border: auto;">WEB ENCRYPTER</h1>
-    <form>
-		<div>
-        <label>Enter Text Here</label><br>
-		<textarea name="message" class="textbox" style="height: 4em;"></textarea>
-		<button class="paste">Paste Highlighted</button><br>
+<body style="padding: 3%;">
+    <h1 style="border: auto; margin: 2%;">WEB ENCRYPTER</h1>
+    
+	<div class="main">
+		<div class="navbar">
+			<button class="settings"><img src="settings.png" style="width: 40px; vertical-align: baseline;"></img></button>
 		</div>
 
-		<br><br>
+		<hr class="navsep"/>
 
-		<div>
-        <label>Enter Password</label><br>
-        <textarea name="password" class="textbox" style="height: 2em;"></textarea>
-		<button class="paste">Paste Highlighted</button><br>
-		</div>
+		<form>
+			<div>
+			<label>Enter Text Here</label><br>
+			<textarea name="message" class="textbox" style="height: 4em;"></textarea>
+			<div class="space"></div>
+			<button class="paste">Paste Highlighted</button><br>
+			</div>
 
-		<br><br><br>
+			<br><hr/>
 
-		<div>
-        <button class="submit">Encrypt</button>
-        <button class="submit">Decrypt</button>
-		</div>
-    </form>
+			<div>
+			<label>Enter Password</label><br>
+			<textarea name="password" class="textbox" style="height: 2em;"></textarea><br>
+			<div class="space"></div>
+			<button class="paste">Paste Highlighted</button><br>
+			</div>
+
+			<br><hr/>
+
+			<div>
+			<button class="submit">Encrypt</button>
+			<button class="submit">Decrypt</button>
+			</div>
+		</form>
+	</div>
 </body>
 </html>
